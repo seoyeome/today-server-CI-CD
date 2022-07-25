@@ -14,6 +14,7 @@ exports.selectMemberById = async(connection, id) => {
         console.log(err)
         reject(err);
 
+
         
       }
 
