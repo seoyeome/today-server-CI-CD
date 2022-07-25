@@ -13,6 +13,7 @@ exports.selectMemberById = async(connection, id) => {
       if(err) {
         console.log(err)
         reject(err);
+
         
       }
 
